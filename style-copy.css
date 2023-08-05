@@ -1,0 +1,979 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Amarante-Regular;
+  src: url(fonts/Amarante/Amarante-Regular.ttf);
+}
+@font-face {
+  font-family: KaushanScript-Regular;
+  src: url(fonts/Kaushan_Script/KaushanScript-Regular.ttf)
+}
+@font-face {
+  font-family: PTsans-Regular;
+  src: url(fonts/PT_Sans/PTSans-Regular.ttf)
+}
+@font-face {
+  font-family: Heebo-VariableFont_wght;
+  src: url(fonts/Heebo/Heebo-VariableFont_wght.ttf);
+}
+body{
+  font-family: PTsans-Regular;
+  background-color: #989898;
+}
+/* ------------------------header----------------------- */
+
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active:hover{
+  background: #b10000;
+  transition: .5s;
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+.btn-pos{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo-image{
+     margin-left: 3%;
+     height: 3.5rem;
+      width: 3.5rem;
+}
+.main-page-header{
+  
+  background-color: black;
+ background-size: cover;
+  height: 40rem;
+  width: 100%;
+  opacity: 1;
+  background-position: center center;
+}
+.headstyl{
+  background: black;
+}
+
+.header-heading{
+ margin-top: 1.5%;
+  text-align: left;
+  font-family: Amarante-Regular;
+  color: #ffffff;
+  font-size: 0.5rem;
+ font-weight: 400;
+}
+.header-heading-2{
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.btn-order{
+  color: #ffffff;
+  border: 1px solid #b50909;
+  background-color: #b50909;
+  font-size: 18px;
+  border-radius: 3px;
+padding: 5px;
+
+margin-top: 2.5rem;
+
+width: 130px;
+
+}
+.btn-order:hover{
+  background-color: #ce5e5e;
+  border: #ce5e5e;
+}
+
+/*----------------------- First section -story ----------------------*/
+.story-of-taste{
+  
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+ padding: 15px;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.about-us-image{
+max-width: 100%;
+border-radius: 3px;
+margin-top: 5px;
+}
+.about-us-header{
+  font-family:Amarante-Regular ;
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.about-us-para{
+  font-size: 1.2rem;
+  text-align: justify;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+.btn-discovery{
+  color: #ffffff;
+  border: 1px solid #b50909;
+  background-color: #b50909;
+  font-size: 20px;
+  border-radius: 3px;
+padding: 5px;
+margin-top: 26px;
+width: 150px;
+margin-left:33% ;
+margin-bottom: 25px;
+}
+.btn-discovery:hover{
+  background-color: #ce5e5e;
+  border: #ce5e5e;
+
+}
+
+/* ---------------------second section menu------------ */
+.menu-section-background{
+  background-image: url(images/statement-onwood2.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+  opacity: 1;
+  background-position: center center;
+}
+.menu-header{
+  text-align: center;
+  margin-left:5%;
+  font-family: Amarante-Regular;
+  color:#ffffff;
+  font-size: 2.5rem;
+ font-weight: 400;
+max-width: 90%;
+padding-top: 20px;
+
+
+}
+.menu-para{
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-top: 10%;
+  margin-bottom: 50px;
+  
+}
+.menu-btn{
+  
+  color: #ffffff;
+  border: 1px solid #b50909;
+  background-color: #b50909;
+  font-size: 20px;
+  border-radius: 3px;
+padding: 5px;
+margin-top: 30px;
+margin-left: 26%;
+width: 200px;
+align-items: center;
+}
+.menu-btn:hover{
+  background-color: #ce5e5e;
+  border: #ce5e5e;
+}
+/* ------------Third section our customers---------- */
+.our-customers{
+
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  
+    margin: 20px auto;
+    width: 90%;
+}
+.customer-header-text{
+  text-align: center;
+  font-family: Amarante-Regular;
+  
+  font-size: 2.5rem;
+ font-weight: 400;
+}
+.customer-header-text-2{
+  text-align: center;
+}
+.customers-comments{
+ 
+    margin: 20px auto;
+    width: 100%;
+}
+.customer-img{
+max-width: 100%;
+border-radius: 2%;
+
+
+}
+.comments-img{
+max-width: 100%;
+
+}
+
+.review{
+ padding-bottom: 15px;
+}
+.w-review{
+  color: #ffffff;
+  font-weight: 400;
+  margin-left: 13%;
+  font-size: 15px;
+  border: 1px solid #b10000;
+  border-radius: 3px;
+  background-color: #b10000;
+  padding: 5px;
+}
+.w-review:hover{
+  background-color: #ce5e5e;
+  border: #ce5e5e;
+}
+.r-review{
+  color: #ffffff;
+  font-weight: 400;
+  margin-left: 12%;
+  font-size: 15px;
+  border: 1px solid #b10000;
+  border-radius: 3px;
+  background-color: #b10000;
+  padding: 5px;
+  
+}
+.r-review:hover{
+  background-color: #ce5e5e;
+  border: #ce5e5e;
+}
+
+
+/* ------------------------------footer----------------------------- */
+.Kontakt-os{
+  border: 1px solid #171717;
+  background-color: rgba(0, 0, 0, .9);
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+.footer-logo{
+  height: 3.5rem;
+  width: 3.5rem;
+  margin-left: 40%;
+  
+}
+
+.Kontakt-os-text{
+  color: #ffffff;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 400;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px auto;
+    width: 90%;
+}
+.lower-footer{
+  border: 2px solid #212121;
+  background-color: #212121;
+
+}
+.lower-footer-text{
+  color: #989898;
+}
+.footer{
+  margin-top: 20px;
+}
+.social-media{
+   margin: 20px auto;
+    width: 40%;
+}
+.facebook{
+margin-left: 23%;
+}
+.instagram{
+margin-left: 20%;
+
+}
+.tripadvisor{
+margin-left: 20%;
+}
+
+
+
+/* -----------------------subpages---------------------------- */
+.logo-subpage-header{
+  display: inline-block;
+  margin-left: 20px;
+ 
+ 
+}
+
+.subpage-logo-image{
+  height: 3.5rem;
+  width: 2.3rem;
+  float: left;
+  margin-top: -20%;
+  padding-top: 5px;
+}
+
+.sub-page-heading{
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Amarante-Regular;
+  float: left;
+  margin-top: -36%;
+margin-left: 27%;
+
+}
+.sub-page-header{
+  background-color: black;
+  background-size: cover;
+  height: 5rem;
+  width: 100%;
+  opacity: 1;
+  background-position: center center;
+}
+/* --------------------------------------------------------------- */
+/* ------------------------------Sub Pages--------------------------------------- */
+/* ------------------------------------sub page menu----------------------------- */
+
+.sub-page-main-header{
+  text-align: center;
+  
+  padding-top: 15px;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+.sub-page-second-header{
+font-size: 25px;
+font-weight: 700;
+}
+.sub-page{
+  background-color: white;
+}
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  margin-bottom: 15px;
+}
+.menu-element{
+  border: 1px solid white;
+  width: 45%;  
+  display: flex;  
+  flex-direction: column; 
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 5px;
+  
+  }
+.menu-element-header{
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: Heebo-VariableFont_wght;
+}
+
+.menu-element-img{
+  height: 8rem;
+  width: 8rem;
+  display: flex;
+  align-items: center;
+}
+.menu-element-text{
+  font-size: 16px;
+  text-align: justify;
+  font-size: Heebo-VariableFont_wght;
+
+}
+.menu-page-btn{
+ border: solid 2px #b10000; 
+ background-color: #b10000;
+color: #ffffff;
+ padding: 5px;
+ margin-left: 35%;
+ text-align: center;
+ font-size: 20px;
+ border-radius: 5px;
+ margin-bottom: 10px;
+ margin-top: 10px;
+ 
+}
+.btn-text2{
+  color: #ffffff;
+  font-family: Heebo-VariableFont_wght;
+}
+.menu-page-btn:hover{
+  background-color: #ce5e5e;
+}
+/* -------------------------------------------------------------- */
+/* ---------------------------sub page about us ------------------*/
+
+
+
+/* -------------------------------------------------------------- */
+/* ---------------------------sub page home delivery ------------------*/
+.home-delivery{
+  border: 1px solid #ffffff;
+  background-color :#ffffff;
+  margin:20px 35px 20px 35px ;
+  padding: 25px;
+  border-radius: 5px;
+
+}
+.delivery-main-header{
+  font-family: Heebo-VariableFont_wght;
+  text-align: center;  
+ padding-bottom: 30px;
+}
+
+.delivery-partners{
+  
+  align-items: center;
+  justify-content: space-around;
+  display: flex;  
+  flex-direction: column; 
+  
+  overflow: hidden;
+ 
+}
+.wolt{
+  display: inline-flex;
+ max-height: 30%;
+ max-width: 30%;
+ padding-bottom: 35px;
+ 
+}
+.just-eat{
+  display: inline-flex;
+  max-height: 30%;
+ max-width: 30%;
+ padding-bottom: 35px;
+}
+.hungry{
+  max-height: 30%;
+ max-width: 30%;
+ padding-bottom: 45px;
+ display: inline-flex
+}
+
+.partner-icon-pos{
+ text-align: center;
+}
+.find-res-btn{
+  border: 1px solid #b10000;
+  border-radius: 3px;
+  background-color: #b10000;
+  color: #ffffff;
+  padding: 5px;
+}
+.find-res-btn:hover{
+  background-color: #ce5e5e;
+  border: #ce5e5e;
+}
+
+
+/* --------------------------------------------------------------- */
+/* -------------------------sub page contact us ------------------ */
+.map{
+  margin: 10px 25px 10px 25px;
+}
+.contact-us-row{
+  display: flex;
+  flex-direction:  row;
+  align-items: center;
+  margin: 20px;
+}
+.call-us{
+  border: 1px solid white;
+ flex: 50%;
+ text-align: center;
+ padding-bottom: 20px;
+}
+.address{
+  border: 1px solid white;
+  flex: 50%;
+  text-align: center;
+}
+.opening-hours{
+  border: 1px solid white;
+  align-items: center;
+  text-align: center;
+}
+.contact-us-btn{
+  border: 2px solid #b10000;
+  color: #ffffff;
+  background-color: #b10000;
+  font-size: 15px;
+  padding: 2px;
+  border-radius: 8%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.contact-us-btn:hover{
+  background-color: crimson;
+}
+
+/* --------------------------------------------------------------- */
+@media (max-width: 700px){
+  /* -----------------------header mobile----------------- */
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #171717;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a.active:hover{
+    background: #b10000;
+    transition: .5s;
+  }
+ 
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+@media (min-width: 701px){
+  /* -----------------------header desktop----------------- */
+  label.logo{
+    font-size: 30px;
+    text-align: left;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .nav{
+    margin-right: 1%;
+  }
+  .main-page-header{ 
+   height: 45rem;
+    width: 100%;
+  }
+  .header-heading{
+    margin-top: 0;
+     font-size: 1.5rem;
+     
+   }
+   .header-heading-2{
+    
+     font-size: 1.5rem;
+     font-weight: 400;
+   }
+   .btn-order{
+   
+     font-size: 1.5rem;
+     border-radius:3PX;
+   padding: 10px;
+  
+   width: 170px;
+   }
+   .logo-image{
+     margin-top: 0.1in;
+     margin-left: 1.0%;
+     height: 2.0rem;
+      width: 2.0rem;
+   }
+/*----------------------- First section -story ----------------------*/
+.story-of-taste{
+  
+      flex-wrap: wrap;
+       justify-content: space-between;
+       align-items: center;
+       flex-direction: row;
+}
+.about-us{
+  flex-wrap: wrap;
+       justify-content: space-between;
+       align-items: center;
+       flex-direction: column;
+       margin: 20px auto;
+       width: 90%;
+}
+.about-us-header{
+  text-align: center;
+}
+.about-us-image{
+max-width: 45%;
+  float: right;
+ height: 16rem;
+
+}
+.about-us-text{
+width: 40%;
+ 
+  
+}
+.about-us-para{
+  font-size: 2.3rem;
+ 
+}
+.btn-discovery{
+  font-size: 1.8rem;
+  
+}
+/* ---------------------second section menu------------ */
+.menu-header{
+  margin-bottom: 6%;
+  font-size: 3rem;
+}
+.menu-para{
+  max-width: 40%;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  
+}
+.menu-btn{
+  margin-top: 45px;
+  margin-left: 15%
+
+
+}
+
+   /* ------------Third section our customers---------- */
+   .our-customers{
+   
+     border: 1px solid #ffffff;
+     background-color: #ffffff;
+     flex-wrap: wrap;
+       justify-content: space-between;
+       align-items: center;
+       flex-direction: row;
+       margin: 20px auto;
+       width: 90%;
+   }
+   .customers-comments{
+    flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      margin: 20px auto;
+      width: 90%;
+  }
+  .customer-img{
+  max-width: 45%;
+  
+  }
+  .comments-img{
+  max-width: 45%;
+  }
+  .review{
+    margin-bottom: 15px;
+    margin-top: 35px;
+  }
+.w-review{
+  font-size: 20px;
+  margin-left: 30%;
+}
+.r-review{
+  font-size: 20px;
+}
+/* -------------------footer------------- */
+.footer-logo{
+   height: 3.5rem;
+    width: 3.5rem;
+    margin-left: 0;
+
+}
+
+.Kontakt-os-text{
+  width: 60%;
+}
+
+.facebook{
+  margin-left: 37%;
+  }
+.instagram{
+  margin-left: 10%;
+}
+.tripadvisor{
+  margin-left: 10%;
+}
+
+  /* -----------sub page header ------------- */
+  
+  .logo-subpage-header{
+    
+    height: 6rem;
+  width: 4rem;
+  float: left;
+  margin-left: 10px;
+  margin-top: -4%;
+   
+  
+  }
+  .subpage-logo-image{
+    height: 4rem;
+    width: 2.6rem;
+    float: left;
+    padding-bottom: 5px;
+    
+  }
+  
+  .sub-page-heading{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Amarante-Regular;
+    float: left;
+    margin-top:-75%;
+  margin-left: 75px;
+text-align: justify;
+  }
+/* ------------------------------------------------------------- */
+  /*----------------- sub-page-menu---------------------- */
+  .menu-page-btn{
+  
+    margin-left: 45%;
+  
+  }
+/* ------------------------------------------------------------- */
+  /*----------------- sub-page-contact-us---------------------- */
+.map iframe{
+  width: 90%;
+  margin-left: 5%;
+  height: 350px;
+}
+
+.contact-us-row-desktop{
+  display: flex;
+  flex-direction:  row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7%;
+width: 90%;
+}
+.call-us{
+flex: 30%;
+padding-right: 40px;
+padding-bottom: 30px;
+
+}
+.address{
+ padding-right: 30px;
+  padding-bottom: 10px;
+  flex: 30%;
+}
+.opening-hours{
+
+ padding-bottom: 45px;
+
+}
+/* ----------------------------------------------------------------- */
+/* --------------------sub page --delivery-------------------------- */
+.home-delivery{
+  margin: 120px;
+}
+.delivery-partners{
+  flex-direction: row;
+  padding-bottom: 195px;
+ margin-top: 20%;
+}
+
+.dellog{
+  height: 60px;
+  width: 60px;
+
+}
+
+
+}
+/* ----------------------------------------------------------------- */
+/* --------------------About us-------------------------- */
+.article-content {
+  background-color: #ffffff;
+  padding-bottom: 20px;
+  width: 80%;
+  margin-left: 10%;
+  flex-direction: row;
+}
+.eabout1{
+  display: flex;
+  flex-direction:  row;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+.eabout2{
+  display: flex;
+  flex-direction:  row;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+.ehead{
+  color: black;
+  text-align: center;
+  margin-top: 2.5rem;
+  font-family: Amarante-regular;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.earticle1{
+  display: inline-block;
+  text-align: justify;
+  font-kerning: normal;
+  font-family: PTsans-Regular;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  color: black;
+  flex: 50%;
+  max-width: 40%;
+  margin-right: 4rem;
+  
+}
+
+.earticle2{
+  text-align: justify;
+  font-kerning: normal;
+  font-family: PTsans-Regular;
+  font-size: 1.4rem;
+  font-weight: lighter;
+  color: black;
+  flex: 50%;
+  max-width: 40%;
+  margin-top: -7rem;
+}
+
+
+.eimg1{
+  flex: 50%;
+  max-width: 40%;
+  margin-right: 4.5rem;
+  margin-left: 4rem;
+
+}
+.eimg2{
+  flex: 50%;
+  max-width: 40%;
+  margin-left: 4rem;
+}  
+  
+   
+
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+
+@media screen and (max-width: 601px) {
+
+  .article-content {
+    flex-direction: column;
+  }
+  .ehead{
+    font-size: 2.2rem;
+    order: 1;  
+    margin-top: 1rem;
+    margin-left: 6rem;
+    margin-right: 2.5rem;
+    display: inline-block;
+  }
+ .earticle1{
+    font-family: PTsans-Regular;
+    font-weight: bold;
+    font-size: 1.0rem;
+    order: 1;
+    padding: 5px;
+    max-width: 80%;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+  }
+  .earticle2{
+    font-family: PTsans-Regular;
+    font-weight: bold;
+    font-size: 1.0rem;
+    order: 3;
+    padding: 5px;
+    margin-right: 1rem;
+    width: 80%;
+  }
+  .eimg1{
+    order: 2;
+    margin-right: 4rem;
+    margin-left: 2;
+    max-width: 80%;
+  } 
+
+  .eimg2{
+    order: 4;
+    flex-wrap: nowrap;
+    margin-right: 6rem;
+    max-width: 80%;
+  }
+  .eabout1{
+    width: 15rem;
+    height: 15rem;
+  }
+  .eabout2{
+    width: 15rem;
+    height: 15rem;
+    margin-top: 1rem;
+  }
+  
+ 
+}
+
+
+
+
+
+
+
